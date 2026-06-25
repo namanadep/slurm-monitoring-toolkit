@@ -1,6 +1,6 @@
 # slurm-monitoring-toolkit
 
-A set of four shell scripts that wrap `sinfo`, `squeue`, and `sacct` into more readable, opinionated views of cluster and job state. Useful as everyday tools on any Slurm cluster — copy them into `~/bin/` and `chmod +x`.
+A set of four shell scripts that wrap `sinfo`, `squeue`, and `sacct` into more readable, opinionated views of cluster and job state. Useful as everyday tools on any Slurm cluster - copy them into `~/bin/` and `chmod +x`.
 
 ## Scripts
 
@@ -38,7 +38,7 @@ Reports elapsed time, CPU time, and MaxRSS for each job. The key insight: if `CP
 bash bin/queue_analysis.sh
 ```
 
-Breaks the live queue down by state, partition, and user. Also shows which jobs have been running or waiting longest — useful for spotting stuck jobs or a particular user monopolizing resources.
+Breaks the live queue down by state, partition, and user. Also shows which jobs have been running or waiting longest - useful for spotting stuck jobs or a particular user monopolizing resources.
 
 ![queue_analysis with 6 jobs: 1 running, 5 pending, broken down by state/partition/user](screenshots/19_queue_analysis.png)
 
@@ -49,7 +49,7 @@ bash bin/job_history.sh --days 1
 bash bin/job_history.sh --user alice --days 30
 ```
 
-Lists all jobs for a user in the given window with their final state, exit code, and elapsed time. Failed jobs stand out next to their surrounding completed neighbours — useful for auditing a pipeline run.
+Lists all jobs for a user in the given window with their final state, exit code, and elapsed time. Failed jobs stand out next to their surrounding completed neighbours - useful for auditing a pipeline run.
 
 ![job_history showing serial, array, pipeline, and sweep jobs across the day](screenshots/20_job_history.png)
 

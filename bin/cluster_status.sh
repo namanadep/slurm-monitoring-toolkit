@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# cluster_status.sh — concise cluster-wide overview combining sinfo + squeue
+# cluster_status.sh - concise cluster-wide overview combining sinfo + squeue
 
 DIVIDER="----------------------------------------------------------------"
 

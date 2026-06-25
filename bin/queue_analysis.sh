@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# queue_analysis.sh — break down the job queue by state, partition, and user
+# queue_analysis.sh - break down the job queue by state, partition, and user
 
 echo ""
 echo "  QUEUE ANALYSIS  $(date '+%H:%M:%S')"

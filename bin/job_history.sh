@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# job_history.sh — compact history of recent jobs with state summary
+# job_history.sh - compact history of recent jobs with state summary
 # Usage: job_history.sh [--user USER] [--days N]
 
 USER="$(whoami)"

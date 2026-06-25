@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# job_efficiency.sh — CPU and memory efficiency for completed jobs
+# job_efficiency.sh - CPU and memory efficiency for completed jobs
 # Usage: job_efficiency.sh [--user USER] [--days N] [--jobs JOB_IDS]
 
 USER="$(whoami)"
